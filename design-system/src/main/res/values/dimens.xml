@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- region unit scale -->
+    <dimen name="one_unit">8dp</dimen>
+    <dimen name="two_units">16dp</dimen>
+    <dimen name="three_units">24dp</dimen>
+    <dimen name="four_units">32dp</dimen>
+    <dimen name="five_units">40dp</dimen>
+    <dimen name="six_units">48dp</dimen>
+    <dimen name="seven_units">56dp</dimen>
+    <dimen name="eight_units">64dp</dimen>
+    <dimen name="nine_units">72dp</dimen>
+    <dimen name="eleven_units">88dp</dimen>
+    <!-- specific variation -->
+    <dimen name="quarter_unit">2dp</dimen>
+    <dimen name="half_unit">4dp</dimen>
+    <dimen name="three_quarters_unit">6dp</dimen>
+    <dimen name="one_unit_and_half">12dp</dimen>
+    <dimen name="two_units_and_half">20dp</dimen>
+    <dimen name="three_units_and_half">28dp</dimen>
+    <dimen name="four_units_and_half">36dp</dimen>
+    <!-- endregion unit scale -->
+</resources>

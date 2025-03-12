@@ -1,0 +1,69 @@
+[versions]
+android-compileSdk = "35"
+android-minSdk = "23"
+android-targetSdk = "34"
+androidGradlePlugin = "8.7.3"
+composeCompilerVersion = "1.5.15"
+jetbrainsComposeNavigation = "2.8.0-alpha11"
+kotlin = "2.0.0"
+kotlinxSerialization = "1.7.3"
+kotlinxCoroutines = "1.9.0"
+kotlinxKover = "0.7.5"
+koin = "4.0.0"
+ktor = "3.0.1"
+jetbrainsCompose = "1.7.1"
+coil = "3.0.3"
+detekt = "1.23.6"
+mediaVersion = "1.5.1"
+junit = "4.13.2"
+mockk = "1.13.8"
+testCore = "1.6.1"
+testCoreTesting = "2.2.0"
+testRules = "1.6.1"
+material = "1.12.0"
+
+[libraries]
+androidMaterial3 = { group = "com.google.android.material", name = "material", version.ref = "material"}
+
+kotlinSerializationJson = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinxSerialization" }
+kotlinCoroutinesCore = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinxCoroutines" }
+
+jetbrainsComposeNavigation = { group = "org.jetbrains.androidx.navigation", name = "navigation-compose", version.ref = "jetbrainsComposeNavigation" }
+
+koinCore = { group = "io.insert-koin", name = "koin-core", version.ref = "koin" }
+koinAndroid = { group = "io.insert-koin", name = "koin-android", version.ref = "koin" }
+koinCompose = { group = "io.insert-koin", name = "koin-androidx-compose", version.ref = "koin" }
+
+detektFormatting = { group = "io.gitlab.arturbosch.detekt", name = "detekt-formatting", version.ref = "detekt" }
+
+ktorClientCore = { group = "io.ktor", name = "ktor-client-core", version.ref = "ktor" }
+ktorClientAndroid = { group = "io.ktor", name = "ktor-client-android", version.ref = "ktor" }
+ktorClientJson = { group = "io.ktor", name = "ktor-client-json", version.ref = "ktor" }
+ktorClientSerialization = { group = "io.ktor", name = "ktor-client-serialization", version.ref = "ktor" }
+ktorClientLogging = { group = "io.ktor", name = "ktor-client-logging", version.ref = "ktor" }
+ktorClientContentNegotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version.ref = "ktor" }
+ktorSerializationKotlinxJson = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version.ref = "ktor" }
+
+coilCompose = { group = "io.coil-kt.coil3", name = "coil-compose", version.ref = "coil" }
+coilKtor = { group = "io.coil-kt.coil3", name = "coil-network-ktor3", version.ref = "coil" }
+
+media3Ui = { group = "androidx.media3", name = "media3-ui", version.ref = "mediaVersion" }
+media3Exoplayer = { group = "androidx.media3", name = "media3-exoplayer", version.ref = "mediaVersion" }
+media3ExoplayerHls = { group = "androidx.media3", name = "media3-exoplayer-hls", version.ref = "mediaVersion" }
+
+testsJunit = { group = "junit", name = "junit", version.ref = "junit" }
+testsMockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
+testsCore = { group = "androidx.test", name = "core-ktx", version.ref = "testCore" }
+testsCoreTesting = { group = "androidx.arch.core", name = "core-testing", version.ref = "testCoreTesting" }
+testsRules = { group = "androidx.test", name = "rules", version.ref = "testRules" }
+testsCoroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "kotlinxCoroutines" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+androidLibrary = { id = "com.android.library", version.ref = "androidGradlePlugin" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+kotlinSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+kotlinComposeCompiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+jetbrainsCompose = { id = "org.jetbrains.compose", version.ref = "jetbrainsCompose" }
+detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }

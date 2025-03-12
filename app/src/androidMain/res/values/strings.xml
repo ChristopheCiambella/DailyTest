@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DailyTest</string>
+    <string name="error_unavailable_title">Ce contenu semble indisponible</string>
+    <string name="error_unavailable_message">Nous mettons tout en œuvre\npour résoudre le problème.</string>
+    <string name="error_action_retry">Réessayer</string>
+    <string name="when_date_minutes">il y a %s minute(s)</string>
+    <string name="when_date_hours">il y a %s heure(s)</string>
+</resources>
